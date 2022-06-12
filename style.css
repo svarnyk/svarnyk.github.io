@@ -2,28 +2,28 @@
     box-sizing: border-box;
 }
 body{
-    padding: 20px;
+    padding: 15px;
     font-family: e-Ukraine-Regular ;
-    font-size: 16px;
+    font-size: 12px;
     color: #cbc6c6;
     margin: 0;
 }
 .weather{
-    width: 500px;
-    height: 300px;
+    width: 380px;
+    height: 250px;
     border-radius: 20px;
     display: flex;
-    /*align-items: center;*/
+    /*align-items: stretch;*/
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     background-color: teal;
-    box-shadow: 0 0 20px #114f4f;
+    box-shadow: 0 0 15px #114f4f;
     flex-direction: column;
 }
 .weather__top{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /*height: 80%;*/
 }
 .weather__left{
@@ -39,14 +39,14 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
 .weather__city{
-    font-size: 32px;
+    font-size: 18px;
 }
 .weather__phenomenon-description{
-    font-size: 14px;
+    font-size: 11px;
 }
 .weather__temp{
     display: flex;
@@ -54,10 +54,10 @@ body{
     flex-direction: column;
 }
 .weather__temp-fact{
-    font-size: 34px;
+    font-size: 25px;
 }
 .weather__temp-feeling{
-    font-size: 12px;
+    font-size: 9px;
 }
 .weather__phenomenon{
     display: flex;
@@ -71,10 +71,10 @@ body{
     justify-content: center;
 }
 .weather__sunset{
-    font-size: 12px;
+    font-size: 9px;
 }
 .weather__sunrise{
-    font-size: 12px;
+    font-size: 9px;
 }
 .weather__down{
     display: flex;
@@ -83,7 +83,7 @@ body{
 }
 .weather__selectLocation {
     display: block;
-    font-size: 16px;
+    font-size: 12px;
     font-family: e-Ukraine-Regular;
     font-weight: 700;
     color: #444;
